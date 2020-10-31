@@ -21,7 +21,7 @@ Our tech stack:
 
 * Arduino - Posture algorithms for the hardware device, built and deployed on an Arduino Mini!
 * Firebase - Storing user-posture history for further analytics and customized reports
-* WinForms - Windows application that runs as a service, optimized for thread efficiency and low-latency reporting
+* Windows Presentation Foundation - Windows application that runs as a service, optimized for thread efficiency and low-latency reporting
 
 
 
