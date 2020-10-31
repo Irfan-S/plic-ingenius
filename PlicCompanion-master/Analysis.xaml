@@ -1,0 +1,15 @@
+﻿<Window x:Class="PlicCompanion.Analysis"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlicCompanion"
+        mc:Ignorable="d"
+        Title="Analysis" Height="450" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" FontFamily="/PlicCompanion;component/Res/font/#Helvetica">
+    <Grid>
+        <Label Content="A definitive analysis of your posture pattern. This can be in turn viewed/printed for your reference or&#xD;&#xA; consultation by any medical professional" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Rectangle Fill="#FFF4F4F5" Height="304" Margin="30,60,30,0" Stroke="Black" VerticalAlignment="Top"/>
+        <Button x:Name="print" Content="Print" HorizontalAlignment="Left" Margin="336,375,0,0" VerticalAlignment="Top" Width="75" Height="27" FontSize="15" Click="print_Click"/>
+
+    </Grid>
+</Window>

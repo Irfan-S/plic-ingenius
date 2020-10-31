@@ -1,0 +1,16 @@
+﻿<Window x:Class="PlicCompanion.Alert"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlicCompanion"
+        mc:Ignorable="d"
+        Title="Alert" Height="450" Width="600" WindowStartupLocation="CenterScreen" FontFamily="/PlicCompanion;component/Res/font/#Helvetica" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="Alert" HorizontalAlignment="Center" Margin="253,33,254.6,0" VerticalAlignment="Top" FontFamily="/PlicCompanion;component/Res/font/#Helvetica" FontSize="35" Height="54" Width="86"/>
+        <Label Content="You have been idle for a considerably long time. Long periods of&#xD;&#xA;inactivity can hamper the proper functioning of muscles and&#xD;&#xA;can induce joint aches.&#xD;&#xA;It is recommended that you move around a bit for a few minutes" HorizontalAlignment="Left" Margin="36,112,0,0" VerticalAlignment="Top" FontFamily="/PlicCompanion;component/Res/font/#Helvetica" FontSize="18" Height="107" Width="527"/>
+        <Label Content="The time till the application reminds you of inactivity can be changed&#xD;&#xA; from the options menu" HorizontalAlignment="Left" Margin="87,224,0,0" VerticalAlignment="Top" FontFamily="/PlicCompanion;component/Res/font/#Helvetica" Height="59" FontSize="13"/>
+        <Button Content="Dismiss" HorizontalAlignment="Left" Margin="253,324,0,0" VerticalAlignment="Top" Width="85" FontFamily="/PlicCompanion;component/Res/font/#Helvetica" Height="31" FontSize="15" Click="Button_Click"/>
+
+    </Grid>
+</Window>
